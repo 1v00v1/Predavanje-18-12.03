@@ -8,7 +8,7 @@ public class Main {
 
         Polaznik p1 = new Polaznik("Goran", "Ivo", 40);
         Polaznik p2 = new Polaznik("Marko", "Marković", 22);
-        Polaznik p3 = new Polaznik("Ivana", "Perić", 43);
+        Polaznik p3 = new Polaznik("Ivana", "Perić", 33);
 
         List<Polaznik> polaznici = new ArrayList<>(List.of(p1, p2, p3));
         System.out.println(polaznici);
